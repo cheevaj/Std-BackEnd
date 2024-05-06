@@ -5,3 +5,6 @@ console.log('color:',blue);
 let pi = 3.14;
 console.log('pi:',pi);
 
+let first_name = 'Chi'
+let last_name = 'Vang'
+console.log('Name:',first_name + ' ' +last_name );
