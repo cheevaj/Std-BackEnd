@@ -36,11 +36,13 @@
 // let Age = 25;
 // console.log(`Name:${name} ,Age:${Age}`);
 
-var obj = {
-  name: "Chi",
-  age: 25,
-  isMarried: true
-};
+// var obj = {
+//   name: "Chi",
+//   age: 25,
+//   isMarried: true
+// };
+// let {age, name,isMarried} = obj;
+// console.log(age,name,isMarried ? 'Married':'Not Married')
 // console.log(`Name:${obj.name},Age:${obj.age},Status:${obj.isMarried ? 'Married' : 'Not Married'}`)
 
 // function sayHello(name){
@@ -50,7 +52,72 @@ var obj = {
 
 // let sayHello1 = (name) => `Hello, ${name}`
 // console.log(sayHello1('Chee'))
-let {age, name,isMarried} = obj;
-console.log(age,name,isMarried)
 
+// let arr = ['chi',15,23];
+// let [name , age1,age2] = arr;
+// console.log(name , age1,age2)
 
+// let arr = [1,2,3,4,5];
+// let arr2 = [6,7,8,9,10];
+// let arr3 = [...arr,...arr2];
+// console.log(arr3)
+
+// let obj = {name:'chi',age:25}
+// let obj2 = {married:true};
+// let obj3 = {...obj,...obj2};
+// console.log(obj3)
+
+// function getName(...args){
+//     return args.join(' ');
+// }
+// console.log(getName('Jonh', 'Doe'))
+// console.log(getName(18))
+
+// function getNum(a=1,b=2,c){
+//     console.log(a,b,c)
+// }
+// getNum();
+// getNum(4,5,0)
+
+// let obj = [{name:'chi',age:24},{name:'chi1',age:25},{name:'chi2',age:26}];
+// console.log(obj[1].name)
+
+// for (let i = 1; i <= 5; i++) {
+//   console.log(i);
+// }
+// let arrLoop = [1,2,3,4,5];
+// arr.forEach((value,index)=>{
+//     console.log(value,index)
+// })
+
+// let arrLoop = [1,2,3,4,5];
+// for (let value of arrLoop){
+//     console.log(value)
+// }
+
+// let obj = {
+//   name: "Chi",
+//   age: 25,
+//   isMarried: true,
+// };
+// for (let key in obj) {
+//   console.log(key + ":", obj[key]);
+// }
+
+// let arrPush = [1,2,3,4,5,6,7];
+// arrPush.push(8,9)
+// console.log(arrPush)
+// arrPush.pop()
+// console.log(arrPush)
+// arrPush.unshift(0);
+// console.log(arrPush);
+// arrPush.shift();
+// console.log(arrPush)
+let arrPush1 = [1,2,3,4,5,6,7];
+let arrPush2 = [9,10,11,12];
+// console.log(arrPush1.concat(arrPush2));
+// console.log(arrPush1.slice(1,3));
+// console.log(arrPush1.splice(1,4));
+// console.log(arrPush1.copyWithin(0,2))
+console.log(arrPush1.reverse())
+console.log(arrPush1.sort())
